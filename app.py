@@ -3,6 +3,6 @@ app = Flask(__name__)
 
 @app.route('/', methods=["GET","POST"])
 def index():
-    return " Starting my machine learning project journey"
+    return " Starting my machine learning project journey. Added CI/CD pipleine as well"
 if __name__ == "__main__":
     app.run(debug=True)
