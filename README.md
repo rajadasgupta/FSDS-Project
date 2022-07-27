@@ -13,3 +13,9 @@ docker run -p 5000:5000 -e PORT=5000 45d78ee557cb
 docker stop <containerID> # to stop container
 docker ps # to check running containers
 
+Once the CI/CD pipeline is created
+Now create 
+a. Housing folder and __init__.py file
+b. create a setup.py file so that we do not have to run the requirenments.txt file everytime to install various libraries
+run command python setup.py install
+
